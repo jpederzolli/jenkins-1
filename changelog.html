@@ -55,6 +55,32 @@ Upcoming changes</a>
 <!-- Record your changes in the trunk here. -->
 <div id="trunk" style="display:none"><!--=TRUNK-BEGIN=-->
 <ul class=image>
+  <li class=>
+</ul>
+</div><!--=TRUNK-END=-->
+<h3><a name=v1.630>What's new in 1.630</a> (2015/09/20)</h3>
+<ul class=image>
+  <li class="bug">
+    Make <tt>JenkinsRule</tt> useable on systems which don't support JNA
+    (<a href="https://issues.jenkins-ci.org/browse/JENKINS-29507">issue 29507</a>)
+</ul>
+<h3><a name=v1.629>What's new in 1.629</a> (2015/09/15)</h3>
+<ul class=image>
+  <li class="rfe">
+    Old data monitor made Jenkins single-threaded for all saves.
+    (<a href="https://issues.jenkins-ci.org/browse/JENKINS-30139">issue 30139</a>)
+</ul>
+<h3><a name=v1.628>What's new in 1.628</a> (2015/09/06)</h3>
+<ul class=image>
+  <li class="rfe">
+    Replaced all non java.util.logging logging libraries with slf4j interceptors.
+    (<a href="https://github.com/jenkinsci/jenkins/pull/1816">PR 1816</a>)
+  <li class="rfe">
+    Document <tt>allBuilds</tt> subtree in remote API for jobs.
+    (<a href="https://github.com/jenkinsci/jenkins/pull/1817">PR 1817</a>)
+</ul>
+<h3><a name=v1.627>What's new in 1.627</a> (2015/08/30)</h3>
+<ul class=image>
   <li class="major bug">
     Race condition in triggers could cause various <code>NullPointerException</code>s.
     (<a href="https://issues.jenkins-ci.org/browse/JENKINS-29790">issue 29790</a>)
@@ -65,7 +91,6 @@ Upcoming changes</a>
     Allow plugins to augment or replace the plugin manager UI.
     (<a href="https://github.com/jenkinsci/jenkins/pull/1788">PR 1788</a>)
 </ul>
-</div><!--=TRUNK-END=-->
 <h3><a name=v1.626>What's new in 1.626</a> (2015/08/23)</h3>
 <ul class=image>
   <li class="bug">
